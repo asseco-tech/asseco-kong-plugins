@@ -1,4 +1,11 @@
 # asseco-jwt-transformer
+#### Version: 1.0.0
+
+Plugin **asseco-jwt-transformer** for KONG
+
+GitHub Repository: https://github.com/asseco-tech/asseco-kong-plugins
+
+## Description
 
 This is a [Kong](https://konghq.com/kong/) middleware to operate on selected values from *Json Web Token* (*JWT*) provided in HTTP authorization header. Selected values can be cloned to the request body or they can be used to create request headers.
 
@@ -31,7 +38,7 @@ Token payload:
 }
 ```
 
-### *Example 1*.
+### *Example 1*
 
 Plugin configuration:
 
@@ -52,7 +59,7 @@ Request body:
 }
 ```
 
-### *Example 2*.
+### *Example 2*
 
 Plugin configuration:
 
@@ -73,3 +80,6 @@ X-JWT-password: 5083fa1d525cf0274ad1633e2bcb89f5
 
 Enrique García Cota + Adam Baldwin + hanzao + Equi 4 Software (
 [MD5 computation in Lua (5.1-3, LuaJIT)](https://github.com/kikito/md5.lua))
+
+## License
+ - [LICENSE](LICENSE)

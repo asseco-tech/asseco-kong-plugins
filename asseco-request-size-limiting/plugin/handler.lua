@@ -1,4 +1,3 @@
--- Copyright (C) Kong Inc.
 -- Copyright (C) Asseco Poland SA
 
 local BasePlugin = require "kong.plugins.base_plugin"
@@ -8,7 +7,7 @@ local tonumber = tonumber
 local KB = 1024     -- 2 ^ 10 bytes
 local RequestSizeLimitingHandler = BasePlugin:extend()
 
-RequestSizeLimitingHandler.PRIORITY = 950
+RequestSizeLimitingHandler.PRIORITY = 2000
 RequestSizeLimitingHandler.VERSION = "1.0.0"
 
 local payload_size_kind = {
