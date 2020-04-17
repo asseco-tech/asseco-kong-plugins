@@ -1,2 +1,8 @@
 # asseco-kong-plugins
-Plugins Kong API Gateway
+
+Plugins for KONG API Gateway
+
+GitHub Repository: https://github.com/asseco-tech/asseco-kong-plugins
+
+## License
+ - [LICENSE](LICENSE)
